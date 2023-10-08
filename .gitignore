@@ -1,5 +1,4 @@
 .git
 .venv
-hw8nosql/__pycache__
-hw8nosql/test
-hw8nosql\rabbitmq-hw/__pycache__
+hw9scr/__pycache__
+hw9scr/test
