@@ -59,6 +59,7 @@ if __name__ == '__main__':
 
     while True:
         url = f"{base_url}/page/{page_number}/"
+        
         quotes, authors = scrape_quotes(url)
 
         if not quotes:
@@ -68,7 +69,6 @@ if __name__ == '__main__':
         authors_data.extend(authors)
         page_number += 1
 
-        break
     
     # Load information in JSON files
     with open('quotes.json', 'w') as quotes_file:
